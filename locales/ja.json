@@ -1,0 +1,158 @@
+
+{
+  "sidebar": {
+    "title": "AIツールキット",
+    "home": "ホーム",
+    "imageGenerator": "画像生成",
+    "videoGenerator": "動画生成",
+    "imageEditor": "画像編集",
+    "variationsGenerator": "バリエーション生成",
+    "appBuilder": "アプリビルダー",
+    "canvasPlayground": "Canvasプレイグラウンド",
+    "aiChat": "AIチャット",
+    "developedBy": "開発者",
+    "developerName": "イブラヒム"
+  },
+  "home": {
+    "title": "AIツールキットへようこそ",
+    "subtitle": "クリエイティブなAIツールの強力なスイート。以下のツールを選択して開始してください。",
+    "tools": {
+      "imageGenerator": {
+        "title": "AI画像ジェネレーター",
+        "description": "強力なAIモデルを使用して、テキストプロンプトから素晴らしい画像を生成します。"
+      },
+      "videoGenerator": {
+        "title": "AI動画ジェネレーター",
+        "description": "テキストの説明から動画を生成して、あなたのアイデアに命を吹き込みます。"
+      },
+      "imageEditor": {
+        "title": "高度な画像エディタ",
+        "description": "テキストプロンプトで画像を編集：背景の削除、オブジェクトの追加など。"
+      },
+      "variationsGenerator": {
+        "title": "バリエーションジェネレーター",
+        "description": "画像をアップロードして、複数のクリエイティブなバリエーションとスタイルを生成します。"
+      },
+      "appBuilder": {
+        "title": "Webアプリビルダー",
+        "description": "簡単な説明から、Webアプリ用の完全なHTMLを生成します。"
+      },
+      "canvasPlayground": {
+        "title": "Canvasプレイグラウンド",
+        "description": "JavaScriptとHTML Canvasを試して、グラフィックやアニメーションを作成します。"
+      },
+      "aiChat": {
+        "title": "インタラクティブAIチャット",
+        "description": "インテリジェントなAIアシスタントに助けを求めたり、コードを書いたり、アイデアをブレインストーミングしたりできます。"
+      }
+    }
+  },
+  "imageGenerator": {
+    "title": "AI画像ジェネレーター",
+    "promptLabel": "プロンプトを入力してください",
+    "promptPlaceholder": "例：魔法使いの帽子をかぶった猫の写実的なポートレート",
+    "styleLabel": "スタイルを選択",
+    "styles": {
+      "anime": "アニメ",
+      "realistic": "リアル",
+      "artistic": "芸術的",
+      "cinematic": "映画風"
+    },
+    "generateButton": "画像を生成",
+    "generatingButton": "生成中...",
+    "resultTitle": "生成された画像",
+    "resultAlt": "AIによって生成された画像",
+    "downloadButton": "画像をダウンロード",
+    "errorPrompt": "画像を生成するにはプロンプトを入力してください。",
+    "errorGenerating": "画像の生成中にエラーが発生しました。もう一度お試しください。",
+    "loadingMessage": "AIがあなたの傑作を描いています..."
+  },
+    "videoGenerator": {
+    "title": "AI動画ジェネレーター",
+    "promptLabel": "作成したい動画を説明してください",
+    "promptPlaceholder": "例：最高速度でスポーツカーを運転する猫のネオンホログラム、効果音付き",
+    "styleLabel": "スタイルを選択",
+    "styles": {
+      "anime": "アニメ",
+      "realistic": "リアル"
+    },
+    "generateButton": "動画を生成",
+    "generatingButton": "生成中...",
+    "resultTitle": "生成された動画",
+    "download4kButton": "4Kでダウンロード",
+    "errorPrompt": "動画を生成するにはプロンプトを入力してください。",
+    "errorGenerating": "動画の生成中にエラーが発生しました。複雑なプロンプトで発生することがあります。もう一度お試しください。",
+    "loadingTitle": "動画を作成しています...",
+    "loadingMessage": "この処理には数分かかることがあります。しばらくお待ちください。",
+    "loadingTip": "ヒント：より詳細なプロンプトは、より良い結果を生むことがよくあります！"
+  },
+  "imageEditor": {
+    "title": "高度な画像エディタ",
+    "step1": "ステップ1：画像をアップロード",
+    "step2": "ステップ2：編集内容を記述",
+    "uploadClick": "クリックして画像をアップロード",
+    "uploadDrag": "またはドラッグ＆ドロップ",
+    "originalAlt": "元の画像",
+    "promptPlaceholder": "例：「背景を削除して」、「人物に海賊の帽子を追加して」、「空を夕焼けのようにして」",
+    "editButton": "編集を適用",
+    "editingButton": "適用中...",
+    "resultTitle": "編集後の画像",
+    "editedAlt": "編集後の画像",
+    "resultPlaceholder": "編集後の画像はここに表示されます。",
+    "download4kButton": "4K品質でダウンロード",
+    "errorPrompt": "画像をアップロードし、編集内容を記述してください。",
+    "errorEditing": "画像の編集中にエラーが発生しました。もう一度お試しください。",
+    "loadingMessage": "AIが魔法をかけています..."
+  },
+  "variationsGenerator": {
+    "title": "バリエーションジェネレーター",
+    "step1": "ステップ1：画像をアップロード",
+    "step2": "ステップ2：オプションのプロンプトを追加",
+    "uploadClick": "クリックして画像をアップロード",
+    "uploadDrag": "またはドラッグ＆ドロップ",
+    "originalAlt": "元の画像",
+    "promptPlaceholder": "例：「水彩画風にして」、「未来的な背景を追加して」",
+    "generateButton": "バリエーションを生成",
+    "generatingButton": "生成中...",
+    "resultTitle": "生成されたバリエーション",
+    "variationAlt": "生成されたバリエーション",
+    "resultPlaceholder": "画像のバリエーションはここに表示されます。",
+    "downloadButton": "画像をダウンロード",
+    "errorFile": "最初に画像をアップロードしてください。",
+    "errorGenerating": "バリエーションの生成中にエラーが発生しました。もう一度お試しください。",
+    "loadingMessage": "クリエイティブなバリエーションを生成中..."
+  },
+  "appBuilder": {
+    "title": "Webアプリ＆サイトビルダー",
+    "description": "完全なアプリケーション、ウェブサイト、またはゲームをHTML形式で作成できます。コードをダウンロードしたり、コピーしたり、コピーやダウンロードの前にアプリケーションをテストすることもできます。",
+    "promptLabel": "作成したいアプリやウェブサイトを説明してください",
+    "promptPlaceholder": "例：「開始、停止、リセットボタン付きのポモドーロタイマー」、「自己紹介、プロジェクト、連絡先の3つのセクションがある個人ポートフォリオサイト」",
+    "generateButton": "コードを生成",
+    "generatingButton": "生成中...",
+    "resultCodeTitle": "生成されたコード",
+    "previewTitle": "ライブプレビュー",
+    "copyTooltip": "コードをコピー",
+    "downloadTooltip": "HTMLをダウンロード",
+    "copySuccess": "コピーしました！",
+    "errorPrompt": "作成したいアプリの説明を入力してください。",
+    "errorGenerating": "コードの生成中にエラーが発生しました。もう一度お試しください。",
+    "loadingMessage": "AIがあなたのアプリケーションを構築しています...",
+    "geminiInstruction": "次のプロンプトに基づいて、単一の完全で有効なHTMLファイルを生成してください。HTMLファイルには、必要なすべてのCSSとJavaScriptを、HTMLのhead内の<style>タグと<script>タグにそれぞれ含める必要があります。外部ファイルは使用しないでください。出力は、完全なHTMLコンテンツを文字列として含む単一のキー「html」を持つJSONオブジェクトでなければなりません。"
+  },
+  "canvas": {
+    "title": "Canvasプレイグラウンド",
+    "editorTitle": "コードエディタ",
+    "previewTitle": "ライブプレビュー",
+    "welcome": "ようこそ！ここにJavaScriptコードを書いてください。",
+    "canvasVar": "はHTMLのcanvas要素です。",
+    "ctxVar": "は2Dレンダリングコンテキストです。",
+    "error": "実行エラー："
+  },
+  "aiChat": {
+    "title": "AIチャットアシスタント",
+    "inputPlaceholder": "ここにメッセージを入力してください...",
+    "welcomeMessage": "こんにちは！私はあなたのAIアシスタントです。今日はどのようにお手伝いできますか？プロンプトの改善、コードの作成、技術的な概念の説明などをお手伝いできます。",
+    "error": "申し訳ありません、エラーが発生しました。もう一度お試しください。",
+    "geminiInstruction": "あなたは、創造的で技術的なタスクに特化した、フレンドリーで親切なAIアシスタントです。ユーザーが画像生成のためのより良いプロンプトを書いたり、コードを説明したり、アイデアをブレインストーミングしたりするのを手伝ってください。"
+  }
+}

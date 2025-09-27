@@ -1,0 +1,158 @@
+
+{
+  "sidebar": {
+    "title": "AI Toolkit",
+    "home": "Home",
+    "imageGenerator": "Image Generator",
+    "videoGenerator": "Video Generator",
+    "imageEditor": "Image Editor",
+    "variationsGenerator": "Variations Generator",
+    "appBuilder": "App Builder",
+    "canvasPlayground": "Canvas Playground",
+    "aiChat": "AI Chat",
+    "developedBy": "Developed by",
+    "developerName": "Ibrahim"
+  },
+  "home": {
+    "title": "Welcome to the AI Toolkit",
+    "subtitle": "A powerful suite of creative AI tools. Choose a tool below to get started.",
+    "tools": {
+      "imageGenerator": {
+        "title": "AI Image Generator",
+        "description": "Create stunning images from text prompts using powerful AI models."
+      },
+      "videoGenerator": {
+        "title": "AI Video Generator",
+        "description": "Bring your ideas to life by generating videos from text descriptions."
+      },
+      "imageEditor": {
+        "title": "Advanced Image Editor",
+        "description": "Edit your images with text prompts: remove backgrounds, add objects, and more."
+      },
+      "variationsGenerator": {
+        "title": "Variations Generator",
+        "description": "Upload an image to generate multiple creative variations and styles."
+      },
+      "appBuilder": {
+        "title": "Web App Builder",
+        "description": "Generate complete HTML for web apps from a simple description."
+      },
+      "canvasPlayground": {
+        "title": "Canvas Playground",
+        "description": "Experiment with JavaScript and the HTML Canvas to create graphics and animations."
+      },
+      "aiChat": {
+        "title": "Interactive AI Chat",
+        "description": "Get help, write code, or brainstorm ideas with an intelligent AI assistant."
+      }
+    }
+  },
+  "imageGenerator": {
+    "title": "AI Image Generator",
+    "promptLabel": "Enter your prompt",
+    "promptPlaceholder": "e.g., a photorealistic portrait of a cat wearing a wizard hat",
+    "styleLabel": "Select a style",
+    "styles": {
+      "anime": "Anime",
+      "realistic": "Realistic",
+      "artistic": "Artistic",
+      "cinematic": "Cinematic"
+    },
+    "generateButton": "Generate Image",
+    "generatingButton": "Generating...",
+    "resultTitle": "Generated Image",
+    "resultAlt": "AI generated image",
+    "downloadButton": "Download Image",
+    "errorPrompt": "Please enter a prompt to generate an image.",
+    "errorGenerating": "An error occurred while generating the image. Please try again.",
+    "loadingMessage": "The AI is painting your masterpiece..."
+  },
+  "videoGenerator": {
+    "title": "AI Video Generator",
+    "promptLabel": "Describe the video you want to create",
+    "promptPlaceholder": "e.g., a neon hologram of a cat driving a sports car at top speed, with sound effects",
+    "styleLabel": "Select a style",
+    "styles": {
+      "anime": "Anime",
+      "realistic": "Realistic"
+    },
+    "generateButton": "Generate Video",
+    "generatingButton": "Generating...",
+    "resultTitle": "Generated Video",
+    "download4kButton": "Download in 4K",
+    "errorPrompt": "Please enter a prompt to generate a video.",
+    "errorGenerating": "An error occurred while generating the video. This can happen with complex prompts. Please try again.",
+    "loadingTitle": "Your video is being created...",
+    "loadingMessage": "This process can take a few minutes. Please be patient.",
+    "loadingTip": "Tip: More detailed prompts often yield better results!"
+  },
+  "imageEditor": {
+    "title": "Advanced Image Editor",
+    "step1": "Step 1: Upload Your Image",
+    "step2": "Step 2: Describe Your Edits",
+    "uploadClick": "Click to upload an image",
+    "uploadDrag": "or drag and drop",
+    "originalAlt": "Original image",
+    "promptPlaceholder": "e.g., 'remove the background', 'add a pirate hat to the person', 'make the sky look like a sunset'",
+    "editButton": "Apply Edits",
+    "editingButton": "Applying...",
+    "resultTitle": "Edited Image",
+    "editedAlt": "Edited image",
+    "resultPlaceholder": "Your edited image will appear here.",
+    "download4kButton": "Download in 4K Quality",
+    "errorPrompt": "Please upload an image and describe the edits.",
+    "errorEditing": "An error occurred while editing the image. Please try again.",
+    "loadingMessage": "The AI is working its magic..."
+  },
+  "variationsGenerator": {
+    "title": "Variations Generator",
+    "step1": "Step 1: Upload Your Image",
+    "step2": "Step 2: Add an Optional Prompt",
+    "uploadClick": "Click to upload an image",
+    "uploadDrag": "or drag and drop",
+    "originalAlt": "Original image",
+    "promptPlaceholder": "e.g., 'make it in a watercolor style', 'add a futuristic background'",
+    "generateButton": "Generate Variations",
+    "generatingButton": "Generating...",
+    "resultTitle": "Generated Variations",
+    "variationAlt": "Generated variation",
+    "resultPlaceholder": "Your image variations will appear here.",
+    "downloadButton": "Download Image",
+    "errorFile": "Please upload an image first.",
+    "errorGenerating": "An error occurred while generating variations. Please try again.",
+    "loadingMessage": "Generating creative variations..."
+  },
+  "appBuilder": {
+    "title": "Web App & Site Builder",
+    "description": "You can create a complete application, website, or game in HTML format. You can download the code, copy it, and also test the application before copying or downloading.",
+    "promptLabel": "Describe the app or website you want to build",
+    "promptPlaceholder": "e.g., 'a Pomodoro timer with start, stop, and reset buttons', 'a personal portfolio website with three sections: about, projects, and contact'",
+    "generateButton": "Generate Code",
+    "generatingButton": "Generating...",
+    "resultCodeTitle": "Generated Code",
+    "previewTitle": "Live Preview",
+    "copyTooltip": "Copy Code",
+    "downloadTooltip": "Download HTML",
+    "copySuccess": "Copied!",
+    "errorPrompt": "Please enter a description for the app you want to build.",
+    "errorGenerating": "An error occurred while generating the code. Please try again.",
+    "loadingMessage": "The AI is building your application...",
+    "geminiInstruction": "Generate a single, complete, and valid HTML file based on the following prompt. The HTML file must include all necessary CSS and JavaScript within <style> and <script> tags respectively in the HTML head. Do not use any external files. The output must be a JSON object with a single key 'html' containing the full HTML content as a string."
+  },
+  "canvas": {
+    "title": "Canvas Playground",
+    "editorTitle": "Code Editor",
+    "previewTitle": "Live Preview",
+    "welcome": "Welcome! Write your JavaScript code here.",
+    "canvasVar": "is the HTML canvas element.",
+    "ctxVar": "is the 2D rendering context.",
+    "error": "Execution Error:"
+  },
+  "aiChat": {
+    "title": "AI Chat Assistant",
+    "inputPlaceholder": "Type your message here...",
+    "welcomeMessage": "Hello! I'm your AI assistant. How can I help you today? I can help you improve prompts, write code, or explain technical concepts.",
+    "error": "Sorry, I encountered an error. Please try again.",
+    "geminiInstruction": "You are a friendly and helpful AI assistant specialized in creative and technical tasks. Help users write better prompts for image generation, explain code, or brainstorm ideas."
+  }
+}
